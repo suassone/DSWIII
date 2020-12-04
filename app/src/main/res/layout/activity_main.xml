@@ -32,6 +32,9 @@
                 android:layout_width="110dp"
                 android:layout_height="80dp"
                 android:layout_marginRight="5dp"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:textAppearance="?android:textAppearanceLarge"
                  />
 
             <Button
@@ -39,13 +42,19 @@
                 android:layout_width="110dp"
                 android:layout_height="80dp"
                 android:layout_marginLeft="5dp"
-                android:layout_marginRight="5dp"/>
+                android:layout_marginRight="5dp"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:textAppearance="?android:textAppearanceLarge"/>
 
             <Button
                 android:id="@+id/btn3"
                 android:layout_width="110dp"
                 android:layout_height="80dp"
-                android:layout_marginLeft="5dp"/>
+                android:layout_marginLeft="5dp"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:textAppearance="?android:textAppearanceLarge"/>
 
 
         </TableRow>
@@ -59,20 +68,29 @@
                 android:id="@+id/btn4"
                 android:layout_width="110dp"
                 android:layout_height="80dp"
-                android:layout_marginRight="5dp"/>
+                android:layout_marginRight="5dp"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:textAppearance="?android:textAppearanceLarge"/>
 
             <Button
                 android:id="@+id/btn5"
                 android:layout_width="110dp"
                 android:layout_height="80dp"
                 android:layout_marginLeft="5dp"
-                android:layout_marginRight="5dp"/>
+                android:layout_marginRight="5dp"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:textAppearance="?android:textAppearanceLarge"/>
 
             <Button
                 android:id="@+id/btn6"
                 android:layout_width="110dp"
                 android:layout_height="80dp"
-                android:layout_marginLeft="5dp"/>
+                android:layout_marginLeft="5dp"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:textAppearance="?android:textAppearanceLarge"/>
 
 
         </TableRow>
@@ -86,20 +104,29 @@
                 android:id="@+id/btn7"
                 android:layout_width="110dp"
                 android:layout_height="80dp"
-                android:layout_marginRight="5dp"/>
+                android:layout_marginRight="5dp"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:textAppearance="?android:textAppearanceLarge"/>
 
             <Button
                 android:id="@+id/btn8"
                 android:layout_width="110dp"
                 android:layout_height="80dp"
                 android:layout_marginLeft="5dp"
-                android:layout_marginRight="5dp"/>
+                android:layout_marginRight="5dp"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:textAppearance="?android:textAppearanceLarge"/>
 
             <Button
                 android:id="@+id/btn9"
                 android:layout_width="110dp"
                 android:layout_height="80dp"
-                android:layout_marginLeft="5dp"/>
+                android:layout_marginLeft="5dp"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:textAppearance="?android:textAppearanceLarge"/>
 
         </TableRow>
     </TableLayout>
@@ -110,6 +137,9 @@
         android:layout_height="100dp"
         android:layout_marginTop="80dp"
         android:text="Reiniciar"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textAppearance="?android:textAppearanceLarge"
         android:onClick="resetar"/>
 
 
