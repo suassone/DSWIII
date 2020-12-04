@@ -7,15 +7,20 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import java.util.ArrayList;
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     private String jogador = "X";
     private Button bt1, bt2, bt3, bt4, bt5, bt6, bt7, bt8, bt9;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
 
         bt1 = findViewById(R.id.btn1);
         bt2 = findViewById(R.id.btn2);
